@@ -1,0 +1,84 @@
+
+Pensamento Computacional - 1º Ano D Noite - Médio
+BELO HORIZONTE, C E-EF M PROFIS
+Próximas atividades
+Nenhuma atividade para a próxima semana!
+
+Escreva um aviso para sua turma
+
+Aviso: "aula 2"
+LUCIANO MOURA DE SOUZA
+Criado em: 2 de jul.2 de jul.
+aula 2
+
+AULA 2 - Colisão com as bordas.txt
+Texto
+
+Adicionar comentário para a turma...
+
+
+Aviso: "aula 1"
+LUCIANO MOURA DE SOUZA
+Criado em: 18 de jun.18 de jun.
+aula 1
+
+AULA 1 - Cenário e Bolinha.txt
+Texto
+
+Adicionar comentário para a turma...
+
+
+Aviso: "https://scratch.mit.edu/projects/990008…"
+LUCIANO MOURA DE SOUZA
+Criado em: 4 de jun.4 de jun.
+https://scratch.mit.edu/projects/990008009/
+
+Adicionar comentário para a turma...
+
+
+Aviso: "https://scratch.mit.edu/projects/989234…"
+LUCIANO MOURA DE SOUZA
+Criado em: 28 de mai.28 de mai.
+https://scratch.mit.edu/projects/989234472/
+
+Adicionar comentário para a turma...
+
+Material: "artigos"
+LUCIANO MOURA DE SOUZA postou um novo material: artigos
+Criado em: 14 de mai.14 de mai.
+Material: "aula 2"
+LUCIANO MOURA DE SOUZA postou um novo material: aula 2
+Criado em: 30 de abr.30 de abr.
+Material: "Criando repositório no Github"
+LUCIANO MOURA DE SOUZA postou um novo material: Criando repositório no Github
+Criado em: 23 de abr.23 de abr.
+Material: "aula1"
+LUCIANO MOURA DE SOUZA postou um novo material: aula1
+Criado em: 16 de abr.16 de abr.
+Atividade: "ACESSO AO SCRATCH"
+LUCIANO MOURA DE SOUZA postou uma nova atividade: ACESSO AO SCRATCH
+Criado em: 22 de fev.22 de fev.
+Mural
+let xBolinha = 300;
+let yBolinha = 200;
+let diametro = 15;
+
+let velocidadeXBolinha = 6;
+let velocidadeYBolinha = 6;
+function setup() {
+    createCanvas(600, 400);
+}
+function draw() {
+    background(0);
+    circle(xBolinha, yBolinha, diametro);
+    xBolinha += velocidadeXBolinha;
+    yBolinha += velocidadeYBolinha;
+
+    if (xBolinha > width || xBolinha < 0) {
+        velocidadeXBolinha *= -1;
+    }
+    if (yBolinha > height || yBolinha < 0) {
+        velocidadeYBolinha *= -1;
+    }
+}
+t
